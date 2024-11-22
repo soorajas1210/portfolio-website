@@ -33,7 +33,8 @@ export const projects = [
   {
     img: project4,
     name: "BRS Website",
-    description: "",
+    description:
+      "Created a website for MBK Marine Industries, showcasing their expertise in shipbuilding, repair, and conversion services for UAE ports.",
     link: "https://brsnew-frontend.vercel.app",
   },
   {
