@@ -8,6 +8,7 @@ import project7 from "../assets/images/projects/6783.jpg";
 import project8 from "../assets/images/projects/6783.jpg";
 import project9 from "../assets/images/projects/homey.png";
 import project10 from "../assets/images/projects/healthme.png";
+import project11 from "../assets/images/projects/chat-app.png";
 
 export const projects = [
   {
@@ -78,6 +79,13 @@ export const projects = [
     name: "e-commerce website",
     description:
       "Developed an eCommerce application with a Node.js and Express backend, MongoDB database, and an EJS-based frontend. Users can register, browse, and purchase items using PayPal or Cash on Delivery (COD) options. The platform includes a coupon system for discounts. Admins have complete control, allowing them to review stock, add products, and validate all processes for smooth operations.",
-    link: "https://healthme.onrender.com/",
+    link: "https://healthme.onrender.com",
+  },
+  {
+    img: project11,
+    name: "Chat Application",
+    description:
+      "Developed a real-time chat application using React for the frontend, Node.js with Express for the backend, and MongoDB for data storage. The application allows users to sign up, log in, and engage in real-time conversations with other users. Key features include profile management, real-time messaging powered by WebSockets, and customizable themes for a personalized user experience.",
+    link: "https://my-chat-app-ap3v.onrender.com",
   },
 ];
