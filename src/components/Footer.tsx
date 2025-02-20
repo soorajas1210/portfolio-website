@@ -22,17 +22,6 @@ function Footer() {
           <LinkedInIcon />
         </a>
       </div>
-      {/* <p>
-        A portfolio designed & built by{" "}
-        <a
-          href="https://github.com/yujisatojr/react-portfolio-template"
-          target="_blank"
-          rel="noreferrer"
-        >
-          Yuji Sato
-        </a>{" "}
-        with 💜
-      </p> */}
     </footer>
   );
 }
