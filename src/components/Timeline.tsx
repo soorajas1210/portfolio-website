@@ -24,14 +24,14 @@ function Timeline() {
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
             <h3 className="vertical-timeline-element-title">
-              Full Stack Developer
+              Frontend Developer
             </h3>
             <h4 className="vertical-timeline-element-subtitle">
               Spadile Technologies LLC, Abu Dhabi
             </h4>
             <p>
-              Full-stack Web Development, User Experience Design, API
-              Optimization, Project Management.
+              Frontend Development, UI Engineering, API Integration, Performance
+              Optimization
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -47,8 +47,8 @@ function Timeline() {
               Brototype, Trivandrum, Kerala
             </h4>
             <p>
-              Frontend Development, Backend Development, User Experience, Self
-              Learning
+              Full-Stack Web Development, Frontend Engineering, UX Design,
+              Self-Driven Learning
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -64,8 +64,8 @@ function Timeline() {
               Infolks Private Limited, Kerala
             </h4>
             <p>
-              Team Leadership, Project Management, Logical Thinking, Quality
-              Assurance
+              Basic UI Development, Frontend Structuring, Cross-Team
+              Collaboration, Quality-Oriented Approach
             </p>
           </VerticalTimelineElement>
         </VerticalTimeline>

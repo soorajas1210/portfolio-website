@@ -6,16 +6,28 @@ import "../assets/styles/Expertise.scss";
 const labelsFirst = [
   "React.js",
   "Next.js",
+  "JavaScript (ES6+)",
+  "TypeScript",
   "HTML5",
   "CSS3",
-  "JavaScript",
-  "Node.js",
-  "Express",
   "Tailwind CSS",
-  "Mongo DB",
-  "SQL",
-  "PostgreSQL",
-  "Postman",
+  "Styled Components",
+  "Material UI",
+  "Responsive Design",
+  "Redux Toolkit",
+  "zustand",
+  "React Router",
+  "API Integration",
+  "Axios",
+  "Node.js",
+  "Express.js",
+  "MongoDB",
+  "Git & GitHub",
+  "Vercel",
+  "Netlify",
+  "Figma to Code",
+  "Performance Optimization",
+  "Basic SEO",
 ];
 
 function About() {
@@ -26,25 +38,31 @@ function About() {
         <div className="">
           <div className="skill">
             <p>
-              I am a Full Stack Developer with over 2 years of experience in
-              building web applications and ERP solutions, including booking
-              platforms and visitor management systems. My journey into
-              development began through rigorous self-learning, transitioning
-              from a leadership role in the IT industry, where I managed teams
-              for 3.5+ years. This diverse background has honed my skills in
-              problem-solving, adaptability, and collaboration, enabling me to
-              deliver scalable, impactful applications.
+              I'm a Frontend Developer with 6 years of total experience,
+              including 2.5+ years building responsive, high-performance web
+              applications using React.js, Next.js, JavaScript, and Tailwind
+              CSS. I specialize in scalable UI development, API integration, and
+              delivering real-world solutions such as ERP dashboards, booking
+              platforms, and e-commerce features.
             </p>
             <p>
-              Currently, as a Full Stack Developer at Spadile Technologies LLC,
-              I lead the development of responsive, optimized interfaces while
-              enhancing backend functionality to ensure scalable and
-              high-performance solutions. During my time as an intern at
-              Brototype, I successfully built 10+ full-stack projects, ranging
-              from document management systems to ERP platforms, while leading
-              the frontend development for the majority of company projects.
+              Currently, I lead frontend development at Spadile Technologies
+              LLC, where I craft clean, optimized interfaces for document
+              management systems, ERP solutions, and booking applications.
+              Before that, I completed a 9-month intensive MERN stack program at
+              Brototype, where I sharpened my frontend skills by building
+              multiple mini-projects and two major full-stack applications,
+              including an e-commerce site and a home service booking platform.
             </p>
-            <div className="flex-chips" style={{ width: "50%" }}>
+            <p>
+              Earlier in my journey, I spent 3.5 years gaining foundational
+              experience in UI development and team collaboration in a
+              fast-paced, tech-driven environment. That experience shaped my
+              approach to problem-solving and cross-functional teamwork. I'm
+              passionate about building fast, user-friendly, and
+              production-ready web experiences.
+            </p>
+            <div className="flex-chips" style={{ width: "100%" }}>
               <span className="chip-title">Tech stack:</span>
               {labelsFirst.map((label, index) => (
                 <Chip key={index} className="chip" label={label} />
